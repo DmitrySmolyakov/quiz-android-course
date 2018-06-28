@@ -51,15 +51,19 @@
             android:text="@string/question_2"
             style="@style/Question"/>
             <CheckBox
+                android:id="@+id/cb_1"
                 android:text="@string/question_2_answer_1"
                 style="@style/CheckBox" />
             <CheckBox
+                android:id="@+id/cb_2"
                 android:text="@string/question_2_answer_2"
                 style="@style/CheckBox" />
             <CheckBox
+                android:id="@+id/cb_3"
                 android:text="@string/question_2_answer_3"
                 style="@style/CheckBox" />
             <CheckBox
+                android:id="@+id/cb_4"
                 android:text="@string/question_2_answer_4"
                 style="@style/CheckBox" />
 
@@ -68,6 +72,7 @@
                 style="@style/Question"/>
 
             <EditText
+                android:id="@+id/question_3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
@@ -79,6 +84,7 @@
                 android:text="@string/question_4"
                 style="@style/Question"/>
             <RadioGroup
+                android:id="@+id/question_4_radio_group"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginRight="15dp"
@@ -98,13 +104,15 @@
             </RadioGroup>
 
             <Button
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@color/colorPrimaryDark"
                 android:layout_width="match_parent"
                 android:layout_height="48dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
                 android:text="@string/submit_button"
                 android:onClick="submit"/>
-
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
