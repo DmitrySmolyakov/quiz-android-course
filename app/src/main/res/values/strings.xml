@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">ProgrammersQUIZ</string>
+    <string name="header_text">Please answer the questions:</string>
+
+    <string name="question_1">1. At Dartmouth College in 1964 John Kemeny and Thomas Kurtz invented?</string>
+    <string name="question_1_answer_1">ALGOL</string>
+    <string name="question_1_answer_2">BASIC</string>
+    <string name="question_1_answer_3">FORTRAN</string>
+
+    <string name="question_2">2. Which of these is a functional programming language?</string>
+    <string name="question_2_answer_1">F#</string>
+    <string name="question_2_answer_2">LISP</string>
+    <string name="question_2_answer_3">Fortran</string>
+    <string name="question_2_answer_4">Miranda</string>
+
+    <string name="question_3">3. Javascript is a trademark of which company? S__ M___________</string>
+
+    <string name="question_4">4. A section of code that responds to a particular interaction of the user with a gui control is called a?</string>
+    <string name="question_4_answer_1">dispatch function</string>
+    <string name="question_4_answer_2">event handler</string>
+    <string name="question_4_answer_3">control structure</string>
+
+    <string name="submit_button">Submit</string>
+
 </resources>
